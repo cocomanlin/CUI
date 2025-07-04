@@ -1,0 +1,16 @@
+.default {
+  width: 13px;
+  height: 13px;
+}
+
+.squareContainer {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.squareContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

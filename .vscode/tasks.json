@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Generate Exports",
+      "type": "shell",
+      "command": "python",
+      "args": ["./scripts/generate_export.py"]
+    },
+    {
+      "label": "Run build in CultusUI",
+      "type": "shell",
+      "command": "npm run build -- --watch"
+    },
+    {
+      "label": "Run Storybook in CultusUI",
+      "type": "shell",
+      "command": "npm run storybook"
+    },
+    {
+      "label": "Developer Mode",
+      "dependsOn": ["Run build in CultusUI"],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+:where(.default) {
+  color: black;
+  margin: 0;
+  font-family: "Noto Sans";
+  text-align: center;
+}
