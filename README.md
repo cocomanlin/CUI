@@ -8,29 +8,6 @@ CUI is a collection of React components used across many projects. It aims to pr
 - Simple styles with minimal configuration.
 - Icons and fonts ship with the library for a seamless out‑of‑the‑box experience.
 
-## Development
-
-The following npm scripts are available:
-
-- `npm run dev` – start Vite in development mode.
-- `npm run build` – build the library for distribution.
-- `npm run storybook` – open the Storybook environment.
-- `npm run build-storybook` – produce a static Storybook build.
-- `npm run lint` – run ESLint on the project.
-
-## VS Code tasks
-
-A "Developer Mode" task is provided under `.vscode/tasks.json`. It runs both the build watcher and Storybook in parallel:
-
-```
-"Developer Mode": {
-  "dependsOn": ["Run build", "Run Storybook"],
-  "dependsOrder": "parallel"
-}
-```
-
-Run this task to automatically rebuild the package and refresh Storybook whenever files change.
-
 ## Components
 
 The repository currently includes the following components:
