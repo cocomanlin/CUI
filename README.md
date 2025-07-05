@@ -13,7 +13,7 @@ CUI is a collection of React components used across many projects. It aims to pr
 The repository currently includes the following components:
 
 - VStack
-- Image
+- Text
 
 ## Fonts
 
